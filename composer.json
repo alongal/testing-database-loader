@@ -1,0 +1,26 @@
+{
+    "name": "alongal/testing-database-loader",
+    "description": "Import entire database for your own testing purposes.",
+    "keywords": ["testing", "database", "loader", "testing database loader"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alon Gal",
+            "email": "alondagal@gmail.com"
+        }
+    ],
+    "type": "package",
+    "require": {
+		"php": ">=5.4"
+    },
+	"require-dev": {
+        "phpunit/phpunit": "^4.8"
+    },
+	"autoload": {
+        "psr-4": {
+            "alongal\\": "src/"
+        }
+    },
+    "version": "1.0.0",
+    "minimum-stability": "dev"
+}
